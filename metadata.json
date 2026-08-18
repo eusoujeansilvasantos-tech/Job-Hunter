@@ -1,0 +1,8 @@
+{
+  "name": "Remix Job Hunter AI",
+  "description": "Plataforma pessoal de análise e priorização de vagas baseada no perfil profissional de Jean Silva.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
