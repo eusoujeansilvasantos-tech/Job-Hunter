@@ -454,7 +454,7 @@ export default function App() {
             />
           ) : (
             <>
-          {/* Real Job Search Panel (Adzuna + Greenhouse Integration) */}
+          {/* Real Job Search Panel (Gupy + Sólides + Pandapé + Adzuna + Greenhouse) */}
           <div className="bg-white border border-slate-200 rounded-lg p-3.5 shadow-2xs space-y-3">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2.5 border-b border-slate-100">
               <div className="flex items-center gap-2">
@@ -462,14 +462,20 @@ export default function App() {
                   <Globe className="w-4 h-4" />
                 </div>
                 <div>
-                  <h2 className="text-xs font-bold text-slate-900 flex items-center gap-2 flex-wrap">
-                    <span>Busca de Vagas Reais em Tempo Real (Adzuna + Greenhouse)</span>
-                    <span className="px-2 py-0.5 rounded text-[10px] font-black tracking-wider bg-amber-400 text-slate-950 uppercase border border-amber-500 font-mono shadow-2xs">
-                      RUNTIME BUILD: LOCATION-FILTER-V2
-                    </span>
-                  </h2>
-                  <p className="text-[11px] text-slate-500 font-medium">
-                    Consulte vagas públicas agregadas no Brasil e Job Boards oficiais com filtro de elegibilidade geográfica.
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <h2 className="text-xs font-bold text-slate-900">
+                      Busca Multi-Board em Tempo Real
+                    </h2>
+                    <div className="flex items-center gap-1">
+                      <span className="px-1.5 py-0.5 rounded text-[9px] font-extrabold bg-blue-100 text-blue-800 border border-blue-200">Gupy</span>
+                      <span className="px-1.5 py-0.5 rounded text-[9px] font-extrabold bg-emerald-100 text-emerald-800 border border-emerald-200">Sólides</span>
+                      <span className="px-1.5 py-0.5 rounded text-[9px] font-extrabold bg-purple-100 text-purple-800 border border-purple-200">Pandapé</span>
+                      <span className="px-1.5 py-0.5 rounded text-[9px] font-extrabold bg-orange-100 text-orange-800 border border-orange-200">Adzuna</span>
+                      <span className="px-1.5 py-0.5 rounded text-[9px] font-extrabold bg-teal-100 text-teal-800 border border-teal-200">Greenhouse</span>
+                    </div>
+                  </div>
+                  <p className="text-[11px] text-slate-500 font-medium mt-0.5">
+                    Consulte vagas públicas agregadas no Brasil e Job Boards oficiais com filtro de elegibilidade geográfica e pontuação ATS.
                   </p>
                 </div>
               </div>
